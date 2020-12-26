@@ -1,0 +1,13 @@
+[package]
+name = "bevy_2d_text"
+version = "0.1.0"
+authors = ["Daniel Wiesenberg <weasy@hotmail.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { git = "https://github.com/CleanCut/bevy", branch = "text2d" }
+
+[profile.dev.package."*"]
+opt-level = 3
