@@ -91,9 +91,9 @@ fn setup(
             ..Default::default()
         })
         .with_children(|parent| {
-            // Create 200 Text2dBundles in a grid layout
-            for x in (-10000..=10000).step_by(100) {
-                for y in (-10000..=10000).step_by(100) {
+            // Create 4225 Text2dBundles in a grid layout
+            for x in (-3250..=3250).step_by(100) {
+                for y in (-3250..=3250).step_by(100) {
                     parent
                         .spawn(Text2dBundle {
                             text: Text {
